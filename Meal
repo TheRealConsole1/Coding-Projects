@@ -1,19 +1,19 @@
-def main():
-    time = input("What time is it? ")
-    time = convert(time)
-    if time >= 7 and time <= 8:
-        print("Breakfast Time")
+def main(): #defines the function "main"
+    time = input("What time is it? ") #takes a time as an input
+    time = convert(time) #calls the convert function, and puts it in the time variable 
+    if time >= 7 and time <= 8: #checks if the variable is between two arguments
+        print("Breakfast Time") #if the check passes, prints to the screen
     if time >= 12 and time <= 13:
         print("Lunch Time")
     if time >= 18 and time <= 19:
         print("Dinner Time")
     else:
-        pass
+        pass #if no other check is passed, end the program
 
-def convert(time):
-    hours, minutes = time.split(":")
-    time = float(hours) + (float(minutes) / 60)
-    return time
+def convert(time): #defines the convert function with the argument time
+    hours, minutes = time.split(":") #takes the above time variabel and splits it into two arguments
+    time = float(hours) + (float(minutes) / 60) #takes those two arguments, and divides the minutes by 60
+    return time # returns the variable time
 
 
 if __name__ == "__main__":
