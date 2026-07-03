@@ -1,3 +1,4 @@
+#As the name implies, this is a countdown timer, and my project to learn some of the libraries Python uses
 import time
 import os
 
