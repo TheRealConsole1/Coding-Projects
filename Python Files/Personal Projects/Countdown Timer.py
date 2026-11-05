@@ -1,4 +1,5 @@
 #As the name implies, this is a countdown timer, and my project to learn some of the libraries Python uses
+#I have since made what I think is a better version of this with sound.
 import time #Imports the time module into the python script, which lets you use its functions
 import os #imports the OS module into the Python script, which let's you use its functions
 
